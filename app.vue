@@ -22,6 +22,7 @@
        <img src="~assets/cloudy.gif" style="width: 250px; height: 250px;" alt="" v-if="weather.weather[0].main =='Clouds'">
        <img src="~assets/sunny.gif" alt="" style="width: 250px; height: 250px;" v-if="weather.weather[0].main == 'Clear'">
        <img src="~assets/thunder.gif" alt="" style="width: 250px; height: 250px;" v-if="weather.weather[0].main == 'Rain'">
+       <img src="~assets/drizzle.gif" alt="" style="width: 250px; height: 250px;" v-if="weather.weather[0].main == 'Drizzle'">
      </div>
  
      <!-- weather description -->
