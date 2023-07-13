@@ -1,7 +1,7 @@
 <template>
   <div class=" text-center container  py-3">
     <div class="mb-3">
-      <h2>Weather Forecast</h2>
+      <h2>Wjeather Forecast</h2>
       <label for="" class="px-2 "><h3>Cities</h3></label>
       <select id="" class="custom-select" style="width: 100%; height: 35px; background-color: beige; " name="" v-model="name" @change="getUrl(name)" >
         <option selected>Select one</option>
